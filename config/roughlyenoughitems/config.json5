@@ -1,6 +1,8 @@
 {
 	"basics": {
-		"favorites": [],
+		"favorites": [
+			"{data:{Count:1b,id:\"minecraft:polished_diorite_slab\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
+		],
 		// Declares whether cheating mode is on.
 		"cheating": false,
 		"favoritesEnabled": true,
