@@ -1,0 +1,16 @@
+{
+	"RainChance": {
+		/* 
+		   Enable preserving the time left to next rain after players woke up
+		*/
+		"preserveRainTime": true,
+		/* 
+		   Change the chance of rain continuation after players woke up from 0(never) to 100(always)
+		*/
+		"rainContinuationChance": 50,
+		/* 
+		   Change the chance of thunder continuation after players woke up from 0(never) to 1(always when rain continuation is passed)
+		*/
+		"thunderContinuationChance": 50
+	}
+}
