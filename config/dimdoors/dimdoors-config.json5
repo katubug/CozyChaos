@@ -40,7 +40,7 @@
 		"limboBlocksCorruptingOverworldAmount": 5.0
 	},
 	"graphics": {
-		"showRiftCore": false,
+		"showRiftCore": true,
 		"highlightRiftCoreFor": 15000,
 		"riftSize": 1.0,
 		"riftJitter": 1.0

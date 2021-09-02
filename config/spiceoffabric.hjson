@@ -15,7 +15,7 @@
 		reset-history: false
 		// Sets whether the player's maximum hearts should be reset in carrot mode after death
 		// default: false
-		reset-carrot-mode: false
+		reset-carrot-mode: true
 	}
 	// Change the expressions used for calculating the various food properties.
 	// Expressions are mathematical terms with the following variables:
@@ -36,18 +36,18 @@
 		// Sets the amount of last eaten foods to use for the calculations in this category
 		// default: 20
 		// Must be greater or equal to 0
-		history-length: 20
+		history-length: 10
 	}
 	// The good ol' carrot style.
 	// Carrot style means, that you start with a certain amount of hearts and gain more by eating unique foods.
 	carrot: {
 		// Enables the carrot style module.
 		// default: false
-		enable: false
+		enable: true
 		// Sets the amount of hearts with which a new player spawns
 		// default: 6
 		// Must be inclusively between 1 and 100
-		old-start-hearts: 6
+		old-start-hearts: 10
 		// Specifies an expression for how many foods a player needs to eat to earn the next heart.
 		// The result resembles the absolute amount of unique food.
 		// default: 2*pow(2, heartAmount - 6)
