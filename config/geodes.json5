@@ -1,0 +1,45 @@
+{
+	"config_version": "0.0.1",
+	"loot_table": [
+		{
+			"weight": 2.5,
+			"item": "minecraft:diamond"
+		},
+		{
+			"weight": 5.0,
+			"item": "minecraft:emerald"
+		},
+		{
+			"weight": 7.5,
+			"item": "minecraft:amethyst_shard"
+		},
+		{
+			"weight": 12.5,
+			"item": "minecraft:raw_gold"
+		},
+		{
+			"weight": 17.5,
+			"item": "minecraft:raw_iron"
+		},
+		{
+			"weight": 22.5,
+			"item": "minecraft:raw_copper"
+		},
+		{
+			"weight": 30.0,
+			"item": "minecraft:coal"
+		},
+		{
+			"weight": 40.0,
+			"item": "minecraft:redstone"
+		},
+		{
+			"weight": 50.0,
+			"item": "minecraft:lapis_lazuli"
+		},
+		{
+			"weight": 100.0,
+			"item": "minecraft:air"
+		}
+	]
+}

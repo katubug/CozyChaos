@@ -1,6 +1,6 @@
 {
 	"general": {
-		"animationSpeed": 2.0,
+		"animationSpeed": 1.0,
 		"disable_mod": false,
 		"background_color": 1867534416,
 		"space_modules": false,
@@ -68,7 +68,7 @@
 			"lines": {
 				"minecraft": true
 			},
-			"enabled": false
+			"enabled": true
 		}, 
 		{
 			"color_high": 5635925,
@@ -81,9 +81,26 @@
 			"color_low": 16733525
 		}, 
 		{
-			"name": "empty",
+			"name": "graphics",
+			"name_color": 16755200,
+			"value_color": 5636095,
 			"lines": {
-				"": true
+				"shader": true,
+				"render_distance": true,
+				"graphics": true,
+				"clouds": true,
+				"biome_blend_radius": true
+			},
+			"enabled": true
+		}, 
+		{
+			"name": "server",
+			"name_color": 11184810,
+			"value_color": 16777045,
+			"lines": {
+				"server_tick": true,
+				"packets_sent": true,
+				"packets_received": true
 			},
 			"enabled": true
 		}, 
@@ -102,27 +119,38 @@
 			"enabled": true
 		}, 
 		{
-			"name": "location",
-			"name_color": 43520,
-			"value_color": 5636095,
+			"name": "chunks",
+			"name_color": 43775,
+			"value_color": 16777045,
 			"lines": {
-				"light": false,
-				"biome": true,
-				"rotation": false,
-				"facing": false,
-				"local_difficulty": false,
-				"days_played": false,
-				"dimension": false,
-				"highest_block": false,
-				"highest_block_server": false,
-				"light_server": false
+				"available_buffers": true,
+				"loaded_chunks_server": true,
+				"forceloaded_chunks": true,
+				"chunk_culling": true,
+				"pending_uploads": true,
+				"pending_chunks": true,
+				"loaded_chunks": true,
+				"spawn_chunks": true,
+				"client_chunk_cache": true,
+				"chunk_sections": true
 			},
 			"enabled": true
 		}, 
 		{
-			"name": "empty",
+			"name": "location",
+			"name_color": 43520,
+			"value_color": 5636095,
 			"lines": {
-				"": true
+				"light": true,
+				"biome": true,
+				"rotation": true,
+				"facing": true,
+				"local_difficulty": true,
+				"days_played": true,
+				"dimension": true,
+				"highest_block": true,
+				"highest_block_server": true,
+				"light_server": true
 			},
 			"enabled": true
 		}, 
@@ -135,11 +163,21 @@
 				"water_creature": true,
 				"underground_water_creature": true,
 				"ambient": true,
-				"particles": false,
+				"particles": true,
 				"creature": true,
 				"water_ambient": true,
 				"monster": true,
 				"misc": true
+			},
+			"enabled": true
+		}, 
+		{
+			"name": "sound",
+			"name_color": 16755200,
+			"value_color": 5636095,
+			"lines": {
+				"ambient_sounds": true,
+				"sounds": true
 			},
 			"enabled": true
 		}, 
@@ -158,6 +196,15 @@
 			"name": "empty",
 			"lines": {
 				"": true
+			},
+			"enabled": true
+		}, 
+		{
+			"name": "miscleft",
+			"name_color": 16645526,
+			"value_color": 5636095,
+			"lines": {
+				"misc_left": true
 			},
 			"enabled": true
 		}

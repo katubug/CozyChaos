@@ -1,7 +1,7 @@
 [common]
 gravelBlocks = ["minecraft:gravel"]
 triggerOnGravel = true
-isOptIn = true
+isOptIn = false
 rollFlintChance = true
 [client]
 isEnabled = true

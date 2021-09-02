@@ -21,11 +21,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_weeping_mire_oak_leaves": {
+    "arfo:colorable_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_prairie_dark_oak_leaves": {
+    "arfo:byg_weeping_mire_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -33,7 +33,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_great_lakes_isles_jungle_leaves": {
+    "arfo:byg_prairie_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -41,11 +41,15 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_autumnal_woods_jungle_leaves": {
+    "arfo:byg_great_lakes_isles_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "arfo:traverse_woodlands_jungle_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:traverse_autumnal_woods_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -61,6 +65,10 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
+    "arfo:colorable_acacia_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
     "arfo:plains_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
@@ -69,11 +77,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_fresh_water_lake_dark_oak_leaves": {
+    "arfo:bop_mystic_grove_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_mystic_grove_acacia_leaves": {
+    "arfo:byg_fresh_water_lake_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -113,15 +121,15 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_weeping_mire_dark_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:bop_woodland_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_cliffs_jungle_leaves": {
+    "arfo:byg_weeping_mire_dark_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:bop_cherry_blossom_grove_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -129,7 +137,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_cherry_blossom_grove_acacia_leaves": {
+    "arfo:traverse_cliffs_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -173,7 +181,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_arid_highlands_jungle_leaves": {
+    "arfo:byg_glowstone_gardens_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -181,7 +189,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_glowstone_gardens_oak_leaves": {
+    "arfo:traverse_arid_highlands_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -197,11 +205,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:snowy_beach_dark_oak_leaves": {
+    "arfo:traverse_woodlands_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_woodlands_dark_oak_leaves": {
+    "arfo:snowy_beach_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -209,19 +217,19 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:tropical_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:byg_lush_tundra_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:plains_oak_leaves": {
+    "arfo:tropical_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "arfo:bop_fungal_field_dark_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:plains_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -233,19 +241,19 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:mushroom_fields_dark_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:traverse_snowy_coniferous_forest_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_fresh_water_lake_oak_leaves": {
+    "arfo:mushroom_fields_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "arfo:bop_lavender_field_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:byg_fresh_water_lake_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -273,11 +281,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_snowy_deciduous_forest_jungle_leaves": {
+    "arfo:bop_muskeg_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_muskeg_acacia_leaves": {
+    "arfo:byg_snowy_deciduous_forest_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -289,11 +297,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:taiga_jungle_leaves": {
+    "arfo:byg_crimson_gardens_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_crimson_gardens_acacia_leaves": {
+    "arfo:taiga_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -317,7 +325,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "minecraft:flowering_azalea_leaves": {
+    "arfo:byg_sythian_torrids_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -325,15 +333,15 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_sythian_torrids_jungle_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "arfo:tropical_dark_oak_leaves": {
+    "minecraft:flowering_azalea_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "blockus:legacy_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:tropical_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -349,7 +357,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_cypress_swampland_jungle_leaves": {
+    "arfo:byg_red_oak_forest_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -357,7 +365,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_red_oak_forest_acacia_leaves": {
+    "arfo:byg_cypress_swampland_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -365,11 +373,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:dark_forest_oak_leaves": {
+    "arfo:traverse_rolling_hills_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_rolling_hills_acacia_leaves": {
+    "arfo:dark_forest_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -377,20 +385,16 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "charm:ebony_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:bop_coniferous_forest_jungle_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "arfo:byg_volcano_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "traverse:yellow_autumnal_leaves": {
       "spawnRateFactor": 1.8,
+      "isConiferBlock": false
+    },
+    "arfo:byg_volcano_dark_oak_leaves": {
+      "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "arfo:bop_lush_desert_jungle_leaves": {
@@ -441,7 +445,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "betterend:lucernia_leaves": {
+    "arfo:byg_cherry_blossom_forest_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -449,19 +453,15 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_cherry_blossom_forest_acacia_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:forest_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_bayou_jungle_leaves": {
+    "arfo:bop_wasteland_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_wasteland_acacia_leaves": {
+    "arfo:byg_bayou_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -481,11 +481,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_aspen_forest_dark_oak_leaves": {
+    "arfo:byg_guiana_shield_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_guiana_shield_dark_oak_leaves": {
+    "arfo:byg_aspen_forest_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -493,11 +493,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:lush_swamp_jungle_leaves": {
+    "arfo:byg_shrub_lands_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_shrub_lands_oak_leaves": {
+    "arfo:lush_swamp_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -509,19 +509,19 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:lush_swamp_dark_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:traverse_wooded_island_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_weeping_mire_acacia_leaves": {
+    "arfo:lush_swamp_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "arfo:bop_origin_valley_dark_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:byg_weeping_mire_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -553,7 +553,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_deciduous_forest_jungle_leaves": {
+    "arfo:byg_wailing_garth_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -561,7 +561,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_wailing_garth_jungle_leaves": {
+    "arfo:byg_deciduous_forest_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -617,11 +617,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:snowy_oak_leaves": {
+    "arfo:byg_shrub_lands_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_shrub_lands_jungle_leaves": {
+    "arfo:snowy_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -633,19 +633,19 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_basalt_barrera_acacia_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:bop_origin_valley_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_dryland_dark_oak_leaves": {
+    "arfo:byg_basalt_barrera_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "arfo:bop_seasonal_forest_jungle_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:bop_dryland_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -665,15 +665,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_ancient_forest_acacia_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:bop_jade_cliffs_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_red_rock_mountains_acacia_leaves": {
+    "arfo:byg_ancient_forest_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -681,15 +677,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_ancient_forest_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "arfo:byg_bluff_steeps_acacia_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "arfo:bop_burnt_forest_dark_oak_leaves": {
+    "arfo:byg_red_rock_mountains_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -697,11 +685,23 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:mushroom_fields_jungle_leaves": {
+    "arfo:bop_burnt_forest_dark_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:byg_bluff_steeps_acacia_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:byg_ancient_forest_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "arfo:byg_coniferous_forest_acacia_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:mushroom_fields_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -729,7 +729,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "promenade:palm_leaves": {
+    "arfo:byg_sythian_torrids_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -737,11 +737,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_sythian_torrids_dark_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "betterend:tenanea_leaves": {
+    "promenade:palm_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -749,15 +745,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_cold_swamplands_dark_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:bop_bayou_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_rose_fields_dark_oak_leaves": {
+    "arfo:byg_cold_swamplands_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -765,15 +757,19 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
+    "arfo:byg_rose_fields_dark_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
     "arfo:bop_bamboo_blossom_grove_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_seasonal_deciduous_forest_dark_oak_leaves": {
+    "arfo:bop_meadow_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_meadow_oak_leaves": {
+    "arfo:byg_seasonal_deciduous_forest_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -813,19 +809,19 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_burnt_forest_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:bop_gravel_beach_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:mega_taiga_dark_oak_leaves": {
+    "arfo:bop_burnt_forest_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "arfo:bop_dead_forest_dark_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:mega_taiga_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -845,11 +841,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": true
     },
-    "arfo:tropical_edge_jungle_leaves": {
+    "arfo:bop_tropics_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_tropics_jungle_leaves": {
+    "arfo:tropical_edge_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -857,7 +853,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_cherry_blossom_forest_oak_leaves": {
+    "arfo:bop_bamboo_blossom_grove_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -865,7 +861,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_bamboo_blossom_grove_oak_leaves": {
+    "arfo:byg_cherry_blossom_forest_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -873,15 +869,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:mountains_dark_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:traverse_cliffs_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "betterend:dragon_tree_leaves": {
+    "arfo:mountains_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -889,11 +881,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_snowy_cliffs_jungle_leaves": {
+    "arfo:byg_polluted_lake_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_polluted_lake_acacia_leaves": {
+    "arfo:traverse_snowy_cliffs_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -901,11 +893,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_cika_woods_oak_leaves": {
+    "arfo:byg_cika_woods_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_cika_woods_acacia_leaves": {
+    "arfo:byg_cika_woods_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -953,11 +945,15 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_wooded_island_oak_leaves": {
+    "arfo:colorable_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "arfo:byg_deciduous_forest_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:traverse_wooded_island_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -985,11 +981,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_glowstone_gardens_acacia_leaves": {
+    "arfo:bop_woodland_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_woodland_acacia_leaves": {
+    "arfo:byg_glowstone_gardens_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1017,19 +1013,19 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_muskeg_dark_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:bop_ominous_woods_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:tropical_edge_oak_leaves": {
+    "arfo:bop_muskeg_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "arfo:waters_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:tropical_edge_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1049,7 +1045,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_cliffs_oak_leaves": {
+    "arfo:byg_autumnal_valley_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1057,11 +1053,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_autumnal_valley_acacia_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "arfo:traverse_cliffs_acacia_leaves": {
+    "arfo:traverse_cliffs_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1069,7 +1061,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_volcano_jungle_leaves": {
+    "arfo:traverse_cliffs_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1077,15 +1069,19 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
+    "arfo:byg_volcano_jungle_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
     "arfo:bop_wetland_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_autumnal_woods_oak_leaves": {
+    "arfo:bop_lush_desert_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_lush_desert_oak_leaves": {
+    "arfo:traverse_autumnal_woods_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1117,11 +1113,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:badlands_oak_leaves": {
+    "arfo:bop_dead_forest_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_dead_forest_oak_leaves": {
+    "arfo:badlands_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1153,11 +1149,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:waters_acacia_leaves": {
+    "arfo:byg_rose_fields_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_rose_fields_oak_leaves": {
+    "arfo:waters_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1169,11 +1165,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:savanna_acacia_leaves": {
+    "arfo:byg_crimson_gardens_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_crimson_gardens_jungle_leaves": {
+    "arfo:savanna_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1205,11 +1201,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_basalt_barrera_jungle_leaves": {
+    "arfo:bop_lush_desert_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_lush_desert_dark_oak_leaves": {
+    "arfo:byg_basalt_barrera_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1217,11 +1213,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_lush_swamp_jungle_leaves": {
+    "arfo:byg_cherry_blossom_forest_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_cherry_blossom_forest_jungle_leaves": {
+    "arfo:traverse_lush_swamp_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1241,11 +1237,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "minecraft:acacia_leaves": {
+    "arfo:traverse_wooded_island_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_wooded_island_dark_oak_leaves": {
+    "minecraft:acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1281,11 +1277,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_cold_swamplands_jungle_leaves": {
+    "arfo:bop_redwood_forest_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_redwood_forest_jungle_leaves": {
+    "arfo:byg_cold_swamplands_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1297,11 +1293,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_cypress_swampland_acacia_leaves": {
+    "arfo:byg_red_oak_forest_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_red_oak_forest_jungle_leaves": {
+    "arfo:byg_cypress_swampland_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1309,11 +1305,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_burnt_forest_acacia_leaves": {
+    "arfo:bop_wasteland_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_wasteland_oak_leaves": {
+    "arfo:bop_burnt_forest_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1325,7 +1321,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_marsh_jungle_leaves": {
+    "arfo:bop_shrubland_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1333,11 +1329,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_shrubland_oak_leaves": {
+    "arfo:bop_marsh_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_plains_plateau_jungle_leaves": {
+    "arfo:bop_seasonal_forest_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1345,7 +1341,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_seasonal_forest_acacia_leaves": {
+    "arfo:traverse_plains_plateau_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1361,11 +1357,11 @@
       "spawnRateFactor": 1.8,
       "isConiferBlock": false
     },
-    "arfo:traverse_snowy_cliffs_oak_leaves": {
+    "arfo:traverse_snowy_cliffs_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_snowy_cliffs_acacia_leaves": {
+    "arfo:traverse_snowy_cliffs_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1373,15 +1369,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_snowy_cliffs_dark_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:bop_muskeg_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_shrub_lands_acacia_leaves": {
+    "arfo:traverse_snowy_cliffs_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1389,7 +1381,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:snowy_jungle_leaves": {
+    "arfo:byg_shrub_lands_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1397,11 +1389,11 @@
       "spawnRateFactor": 1.8,
       "isConiferBlock": false
     },
-    "arfo:bop_cherry_blossom_grove_dark_oak_leaves": {
+    "arfo:snowy_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_fungal_field_oak_leaves": {
+    "arfo:bop_cherry_blossom_grove_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1409,7 +1401,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_skyris_highlands_dark_oak_leaves": {
+    "arfo:bop_fungal_field_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1417,15 +1409,19 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
+    "arfo:byg_skyris_highlands_dark_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
     "arfo:byg_deciduous_forest_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_red_oak_forest_dark_oak_leaves": {
+    "arfo:bop_volcano_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_volcano_acacia_leaves": {
+    "arfo:byg_red_oak_forest_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1437,15 +1433,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:lush_swamp_acacia_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:byg_autumnal_valley_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_bluff_steeps_jungle_leaves": {
+    "arfo:lush_swamp_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1453,15 +1445,19 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
+    "arfo:byg_bluff_steeps_jungle_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
     "arfo:byg_volcano_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_lavender_field_acacia_leaves": {
+    "arfo:bop_origin_valley_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_origin_valley_acacia_leaves": {
+    "arfo:bop_lavender_field_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1485,11 +1481,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:glow_berry_leaves": {
+    "arfo:traverse_snowy_coniferous_forest_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_snowy_coniferous_forest_oak_leaves": {
+    "arfo:glow_berry_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1497,11 +1493,15 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_grass_land_plateau_jungle_leaves": {
+    "arfo:colorable_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "arfo:bop_volcano_oak_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:byg_grass_land_plateau_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1521,11 +1521,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_coniferous_forest_oak_leaves": {
+    "arfo:bop_seasonal_forest_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_seasonal_forest_dark_oak_leaves": {
+    "arfo:traverse_coniferous_forest_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1541,7 +1541,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_enchanted_forest_dark_oak_leaves": {
+    "arfo:bop_bayou_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1549,7 +1549,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_bayou_jungle_leaves": {
+    "arfo:byg_enchanted_forest_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1557,11 +1557,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_cika_woods_dark_oak_leaves": {
+    "arfo:byg_tropical_rain_forest_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_tropical_rain_forest_jungle_leaves": {
+    "arfo:byg_cika_woods_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1569,11 +1569,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_snowy_deciduous_forest_oak_leaves": {
+    "arfo:bop_mystic_grove_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_mystic_grove_dark_oak_leaves": {
+    "arfo:byg_snowy_deciduous_forest_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1597,11 +1597,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_crag_gardens_dark_oak_leaves": {
+    "arfo:byg_enchanted_forest_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_enchanted_forest_jungle_leaves": {
+    "arfo:byg_crag_gardens_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1610,10 +1610,6 @@
       "isConiferBlock": false
     },
     "arfo:bop_gravel_beach_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "betterend:pythadendron_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1653,7 +1649,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:savanna_dark_oak_leaves": {
+    "arfo:bop_orchard_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1661,7 +1657,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:bop_orchard_oak_leaves": {
+    "arfo:savanna_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1689,11 +1685,7 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_wooded_island_jungle_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "arfo:traverse_woodlands_acacia_leaves": {
+    "arfo:byg_fresh_water_lake_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1701,7 +1693,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_fresh_water_lake_acacia_leaves": {
+    "arfo:traverse_woodlands_acacia_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:traverse_wooded_island_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1729,11 +1725,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:traverse_arid_highlands_dark_oak_leaves": {
+    "arfo:byg_crag_gardens_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_crag_gardens_acacia_leaves": {
+    "arfo:traverse_arid_highlands_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1745,11 +1741,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:mountains_acacia_leaves": {
+    "arfo:byg_woodlands_jungle_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_woodlands_jungle_leaves": {
+    "arfo:mountains_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1757,19 +1753,19 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_wailing_garth_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "traverse:brown_autumnal_leaves": {
       "spawnRateFactor": 1.8,
       "isConiferBlock": false
     },
-    "arfo:traverse_coniferous_forest_dark_oak_leaves": {
+    "arfo:byg_wailing_garth_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
     "arfo:byg_jacaranda_forest_jungle_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
+    },
+    "arfo:traverse_coniferous_forest_dark_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1785,11 +1781,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:mushroom_fields_oak_leaves": {
+    "blockus:white_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "blockus:white_oak_leaves": {
+    "arfo:mushroom_fields_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1809,15 +1805,11 @@
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "arfo:byg_great_lakes_isles_acacia_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
     "arfo:bop_fungal_field_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
-    "betterend:lacugrove_leaves": {
+    "arfo:byg_great_lakes_isles_acacia_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     },
@@ -1826,26 +1818,6 @@
       "isConiferBlock": false
     },
     "arfo:bop_mystic_grove_jungle_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "arfo:colorable_dark_oak_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "arfo:colorable_acacia_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "betterend:cave_bush": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "arfo:colorable_jungle_leaves": {
-      "spawnRateFactor": 1.0,
-      "isConiferBlock": false
-    },
-    "arfo:colorable_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
     }

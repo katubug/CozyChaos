@@ -13,7 +13,7 @@
 	     Hook is active in the world and connected to
 	     something? (Default: false)
 	*/
-	"hookshotCancelsFallDamage": false,
+	"hookshotCancelsFallDamage": true,
 	/* Should the Quick upgrade affect the pulling speed
 	   of the Hookshot? (Default: false)
 	*/

@@ -1,0 +1,12 @@
+{
+  "detectAutomatically": true,
+  "trinketsSafe": true,
+  "items": [
+    "minecraft:bucket",
+    "minecraft:water_bucket",
+    "minecraft:lava_bucket"
+  ],
+  "tags": [
+    "lenientdeath:safe"
+  ]
+}

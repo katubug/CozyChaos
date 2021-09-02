@@ -1,0 +1,18 @@
+{
+  //Cooldown for Ignei Spell usage.
+  "igneiSpellCooldown": 12,
+  //Cooldown for Scintillam Spell usage.
+  "scintillamSpellCooldown": 22,
+  //Cooldown for Cadere Spell usage.
+  "cadereSpellCooldown": 35,
+  //Cooldown for Glacies Spell usage.
+  "glaciesSpellCooldown": 40,
+  //Cooldown for Tractabile Spell usage.
+  "tractabileSpellCooldown": 3,
+  //Cooldown for Cibus Spell usage.
+  "cibusSpellCooldown": 160,
+  //Cooldown for Fertilis Spell usage.
+  "fertilisSpellCooldown": 170,
+  //Spawnrate for generation of the Host Biome. Increase if using any biome overhaul-styled mods, as otherwise the biome will be exceedingly rare.
+  "hostBiomeSpawnRate": 0.2
+}

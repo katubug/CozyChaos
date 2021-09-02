@@ -1,8 +1,6 @@
 {
 	"basics": {
-		"favorites": [
-			"{data:{Count:1b,id:\"minecraft:polished_diorite_slab\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
-		],
+		"favorites": [],
 		// Declares whether cheating mode is on.
 		"cheating": false,
 		"favoritesEnabled": true,
@@ -16,8 +14,8 @@
 				"modifier": 0
 			},
 			"hideKeybind": {
-				"keyCode": "key.keyboard.o",
-				"modifier": 2
+				"keyCode": "key.keyboard.unknown",
+				"modifier": 0
 			},
 			"previousPageKeybind": {
 				"keyCode": "key.keyboard.unknown",
@@ -50,7 +48,7 @@
 		},
 		// Declares whether REI is visible.
 		"overlayVisible": true,
-		"cheatingStyle": "GRAB",
+		"cheatingStyle": "GIVE",
 		"motion": {
 			"favoritesAnimation": true
 		}

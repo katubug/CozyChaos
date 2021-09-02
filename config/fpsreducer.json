@@ -8,7 +8,7 @@
   "reducingInBackground": true,
   "suppressSound": true,
   "suppressedVolume": 20,
-  "hudEnabled": true,
+  "hudEnabled": false,
   "hudReferencePos": 3,
   "hudPos": [
     {

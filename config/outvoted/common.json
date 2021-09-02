@@ -63,7 +63,7 @@
   "generation": {
     "genPalmTrees": true,
     "genBaobabTrees": true,
-    "baobabType": 0
+    "baobabType": 1
   },
   "misc": {
     "helmetPenalty": 40,

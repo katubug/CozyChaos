@@ -5,7 +5,7 @@
     "shiftForDetails": false,
     "displayMode": "TOGGLE",
     "hideFromPlayerList": true,
-    "hideFromDebug": true,
+    "hideFromDebug": false,
     "enableTextToSpeech": false,
     "rateLimit": 250,
     "maxHealthForRender": 40,
