@@ -6,7 +6,7 @@
 	// Determines how long you need to wait before sleeping if well-rested is true (larger numbers = sleep sooner)
 	"sleepyFactor": 2.0,
 	// Set to true to enable sleeping in hammocks at night
-	"nightHammocks": false,
+	"nightHammocks": true,
 	// The chance that a sleeping bag will break upon usage
 	"sleepingBagBreakage": 0.0,
 	/* List of debuffs to apply to players after using the sleeping bag

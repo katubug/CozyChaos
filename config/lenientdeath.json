@@ -28,11 +28,9 @@
     "backpackmod:iron_backpack",
     "backpackmod:ender_backpack",
     "backpackmod:amethyst_backpack",
-		"backpackmod:gold_backpack",
-		"backpackmod:diamond_backpack",
-		"backpackmod:netherite_backpack",
-    "deep-pockets:pack",
-    "deep-pockets:advanced_pack"
+    "backpackmod:gold_backpack",
+    "backpackmod:diamond_backpack",
+    "backpackmod:netherite_backpack"
   ],
   "tags": [
     "lenientdeath:safe"

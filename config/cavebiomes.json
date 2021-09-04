@@ -16,9 +16,9 @@
   "generateUndergroundLootChests": true,
   "generateNetherLootChests": true,
   "generateUndergroundSpawners": true,
-  "cavernChestRarity": 12,
-  "spelunkersChestRarity": 24,
-  "netherChestRarity": 16,
+  "cavernChestRarity": 8,
+  "spelunkersChestRarity": 19,
+  "netherChestRarity": 12,
   "normalSpawnerRarity": 28,
   "rareSpawnerRarity": 42
 }

@@ -22,47 +22,6 @@
 // NOTE: replaceMobSpawns will always override appendMobSpawns for the same structure and mob's SpawnGroups.
 
   "replaceMobSpawns": {
-    "repurposed_structures:witch_hut_taiga": [
-      {
-        "type": "minecraft:witch",
-        "weight": 10,
-        "minGroupSize": 1,
-        "maxGroupSize": 1,
-        "logErrorIfNotFound": true
-      },
-      {
-        "type": "minecraft:cat",
-        "weight": 10,
-        "minGroupSize": 1,
-        "maxGroupSize": 1,
-        "logErrorIfNotFound": true
-      }
-    ],
-    "repurposed_structures:outpost_nether_brick": [
-      {
-        "type": "minecraft:piglin",
-        "weight": 10,
-        "minGroupSize": 1,
-        "maxGroupSize": 1,
-        "logErrorIfNotFound": true
-      }
-    ],
-    "repurposed_structures:witch_hut_birch": [
-      {
-        "type": "minecraft:witch",
-        "weight": 10,
-        "minGroupSize": 1,
-        "maxGroupSize": 1,
-        "logErrorIfNotFound": true
-      },
-      {
-        "type": "minecraft:cat",
-        "weight": 10,
-        "minGroupSize": 1,
-        "maxGroupSize": 1,
-        "logErrorIfNotFound": true
-      }
-    ],
     "repurposed_structures:witch_hut_dark_forest": [
       {
         "type": "minecraft:witch",
@@ -275,6 +234,47 @@
     "repurposed_structures:outpost_giant_tree_taiga": [
       {
         "type": "minecraft:pillager",
+        "weight": 10,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "logErrorIfNotFound": true
+      }
+    ],
+    "repurposed_structures:witch_hut_taiga": [
+      {
+        "type": "minecraft:witch",
+        "weight": 10,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "logErrorIfNotFound": true
+      },
+      {
+        "type": "minecraft:cat",
+        "weight": 10,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "logErrorIfNotFound": true
+      }
+    ],
+    "repurposed_structures:outpost_nether_brick": [
+      {
+        "type": "minecraft:piglin",
+        "weight": 10,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "logErrorIfNotFound": true
+      }
+    ],
+    "repurposed_structures:witch_hut_birch": [
+      {
+        "type": "minecraft:witch",
+        "weight": 10,
+        "minGroupSize": 1,
+        "maxGroupSize": 1,
+        "logErrorIfNotFound": true
+      },
+      {
+        "type": "minecraft:cat",
         "weight": 10,
         "minGroupSize": 1,
         "maxGroupSize": 1,

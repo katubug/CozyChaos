@@ -34,7 +34,7 @@
       "enable": true
     },
     "desert_shrubland": {
-      "weight": 0.8,
+      "weight": 1.0,
       "enable": true
     },
     "snowy_cliffs": {

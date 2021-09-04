@@ -39,6 +39,6 @@
 	"luckyVeinSize": 4,
 	"luckyMaxLevel": 120,
 	"luckyPerChunk": 15,
-	"enableExtraLoot": false,
-	"enableFortune": false
+	"enableExtraLoot": true,
+	"enableFortune": true
 }

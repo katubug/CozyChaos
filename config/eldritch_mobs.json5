@@ -61,7 +61,7 @@
 		"disableLethargic": false,
 		"disableLifesteal": true,
 		"disableOneUp": false,
-		"disableRegen": true,
+		"disableRegen": false,
 		"disableResistant": false,
 		"disableRust": false,
 		"disableSpeedster": false,

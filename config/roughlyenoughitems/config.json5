@@ -14,8 +14,8 @@
 				"modifier": 0
 			},
 			"hideKeybind": {
-				"keyCode": "key.keyboard.unknown",
-				"modifier": 0
+				"keyCode": "key.keyboard.o",
+				"modifier": 2
 			},
 			"previousPageKeybind": {
 				"keyCode": "key.keyboard.unknown",
@@ -115,7 +115,7 @@
 		}
 	},
 	"appearance": {
-		"recipeScreenType": "COMPOSITE",
+		"recipeScreenType": "UNSET",
 		// Declares the appearance of REI windows.
 		"theme": "LIGHT",
 		"layout": {
