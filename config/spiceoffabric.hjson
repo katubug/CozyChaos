@@ -62,6 +62,6 @@
 		// Default health in vanilla is 20 but that may change through mods like Origins.
 		// The resulting value will be floored before use.
 		// default: (0.6 * baseHealth) + max(2 * log2(uniqueFoodsEaten), 0)
-		health-formula: baseHealth + max(2 * log2(uniqueFoodsEaten), 0) - 8
+		health-formula: baseHealth + max(2 * log2(uniqueFoodsEaten), 0)
 	}
 }
