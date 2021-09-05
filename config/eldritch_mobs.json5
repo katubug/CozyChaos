@@ -17,11 +17,11 @@
 	"EldritchSpawnRates": 1.0,
 	"healthIncrease": true,
 	"healthMult": false,
-	// Health Boost Level for Elite Mobs
+	// Number of extra hearts for Elite Mobs
 	"EliteHealthMod": 15,
-	// Health Boost Level for Ultra Mobs
+	// Number of extra hearts for Ultra Mobs
 	"UltraHealthMod": 30,
-	// Health Boost Level for Eldritch Mobs
+	// Number of extra hearts for Eldritch Mobs
 	"EldritchHealthMod": 60,
 	// Health Multiplier for Elite Mobs
 	"EliteHealthMult": 4.0,
