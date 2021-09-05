@@ -29,8 +29,8 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2021-09-05T19:08:08.4342734Z",
-  "playedCount": 155,
+  "lastPlayed": "2021-09-05T19:19:24.042022Z",
+  "playedCount": 156,
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -9875,123 +9875,6 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
-    },
-    {
-      "addonID": 477078,
-      "gameInstanceID": "f6ef8ec3-4174-4429-aeef-465cecf7b419",
-      "installedFile": {
-        "id": 3440846,
-        "displayName": "cem-0.6.2.jar",
-        "fileName": "cem-0.6.2.jar",
-        "fileDate": "2021-08-27T14:20:10.08Z",
-        "fileLength": 314706,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3440/846/cem-0.6.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 306612,
-            "type": 3,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 319057,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 381257,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1795031766,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "LICENSE_cem",
-            "fingerprint": 2436413169,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "cem.accesswidener",
-            "fingerprint": 4156656563,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "cem.mixins.json",
-            "fingerprint": 188681998,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2870986364,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 1225340949,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "cem-refmap.json",
-            "fingerprint": 2594023795,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "net",
-            "fingerprint": 2356194099,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 3701570831,
-        "gameVersion": [
-          "1.17.1",
-          "1.17",
-          "Fabric",
-          "1.17-Snapshot"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "cem-0.6.2.jar"
-      },
-      "dateInstalled": "2021-09-05T19:03:31.3065116Z",
-      "dateUpdated": "2021-09-05T19:03:31.3214955Z",
-      "dateLastUpdateAttempted": "2021-09-05T19:03:31.3214955Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": null,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
     },
     {
       "addonID": 317780,

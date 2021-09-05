@@ -28,7 +28,7 @@
 		// Sets whether to by default scroll items
 		// out of the creative menu.
 		// default: true
-		scroll-creative-menu-items: true
+		scroll-creative-menu-items: false
 		// Sets whether creative mode tabs can
 		// be switched by scrolling over them.
 		// default: true
@@ -79,7 +79,7 @@
 			block-hierarchy: false
 			// Try to find other food items
 			// default: false
-			food: false
+			food: true
 			// Try to find equal items (no nbt matching)
 			// default: true
 			equal-items: true
