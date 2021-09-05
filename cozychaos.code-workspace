@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "config",
+			"path": "config"
+		},
+		{
+			"name": "configBackup",
+			"path": "configBackup"
+		},
+		{
+			"name": "logs",
+			"path": "logs"
+		}
+	],
+	"settings": {}
+}

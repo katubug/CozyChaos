@@ -1,0 +1,423 @@
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 8/31/21, 10:10 AM
+Description: Initializing game
+
+java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'paintings'!
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke0(EntrypointUtils.java:50)
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke(EntrypointUtils.java:33)
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointClient.start(EntrypointClient.java:33)
+	at net.minecraft.class_310.redirect$bao000$catchFabricInit(class_310.java:7064)
+	at net.minecraft.class_310.<init>(class_310.java:457)
+	at net.minecraft.client.main.Main.main(Main.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234)
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153)
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28)
+Caused by: java.lang.ExceptionInInitializerError
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:466)
+	at net.fabricmc.loader.util.DefaultLanguageAdapter.create(DefaultLanguageAdapter.java:50)
+	at net.fabricmc.loader.EntrypointStorage$NewEntry.lambda$getOrCreate$0(EntrypointStorage.java:106)
+	at java.base/java.util.HashMap.computeIfAbsent(HashMap.java:1224)
+	at net.fabricmc.loader.EntrypointStorage$NewEntry.getOrCreate(EntrypointStorage.java:104)
+	at net.fabricmc.loader.EntrypointStorage.lambda$getEntrypointContainers$1(EntrypointStorage.java:191)
+	at net.fabricmc.loader.entrypoint.EntrypointContainerImpl.getEntrypoint(EntrypointContainerImpl.java:37)
+	at net.fabricmc.loader.entrypoint.minecraft.hooks.EntrypointUtils.invoke0(EntrypointUtils.java:47)
+	... 12 more
+Caused by: java.lang.IllegalArgumentException: Illegal character in path at index 96: file:/C:/Users/Katu/Twitch/Minecraft/Instances/Cozy%20Chaos/./resourcepacks/Alittle%20Axolotl%20[5.0].zip
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystemProvider.uriToPath(ZipFileSystemProvider.java:78)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystemProvider.getFileSystem(ZipFileSystemProvider.java:151)
+	at java.base/java.nio.file.FileSystems.getFileSystem(FileSystems.java:234)
+	at subaraki.paintings.util.json.PaintingPackReader.initFileSystem(PaintingPackReader.java:217)
+	at subaraki.paintings.util.json.PaintingPackReader.loadFromJson(PaintingPackReader.java:80)
+	at subaraki.paintings.util.json.PaintingPackReader.init(PaintingPackReader.java:40)
+	at subaraki.paintings.mod.Paintings.<clinit>(Paintings.java:23)
+	... 21 more
+Caused by: java.net.URISyntaxException: Illegal character in path at index 96: file:/C:/Users/Katu/Twitch/Minecraft/Instances/Cozy%20Chaos/./resourcepacks/Alittle%20Axolotl%20[5.0].zip
+	at java.base/java.net.URI$Parser.fail(URI.java:2966)
+	at java.base/java.net.URI$Parser.checkChars(URI.java:3137)
+	at java.base/java.net.URI$Parser.parseHierarchical(URI.java:3219)
+	at java.base/java.net.URI$Parser.parse(URI.java:3167)
+	at java.base/java.net.URI.<init>(URI.java:623)
+	at jdk.zipfs/jdk.nio.zipfs.ZipFileSystemProvider.uriToPath(ZipFileSystemProvider.java:76)
+	... 27 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.class_128.handler$dcm000$fillPatchouliContext(class_128.java:1521)
+
+-- Patchouli Book Info --
+Details:
+	Patchouli open book context: n/a
+Stacktrace:
+	at net.minecraft.class_128.handler$dcm000$fillPatchouliContext(class_128.java:1521)
+	at net.minecraft.class_128.<init>(class_128.java:37)
+	at net.minecraft.class_128.method_560(class_128.java:267)
+	at fudge.notenoughcrashes.mixinhandlers.EntryPointCatcher.handleEntryPointError(EntryPointCatcher.java:37)
+	at net.minecraft.class_310.redirect$bao000$catchFabricInit(class_310.java:7066)
+	at net.minecraft.class_310.<init>(class_310.java:457)
+	at net.minecraft.client.main.Main.main(Main.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at net.fabricmc.loader.game.MinecraftGameProvider.launch(MinecraftGameProvider.java:234)
+	at net.fabricmc.loader.launch.knot.Knot.launch(Knot.java:153)
+	at net.fabricmc.loader.launch.knot.KnotClient.main(KnotClient.java:28)
+
+-- Initialization --
+Details:
+
+-- System Details --
+Details:
+	Minecraft Version: 1.17.1
+	Minecraft Version ID: 1.17.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 16.0.1, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 289198376 bytes (275 MiB) / 989855744 bytes (944 MiB) up to 9663676416 bytes (9216 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz
+	Identifier: Intel64 Family 6 Model 58 Stepping 9
+	Microarchitecture: Ivy Bridge (Client)
+	Frequency (GHz): 3.50
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Intel(R) HD Graphics 4000
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 2112.00
+	Graphics card #0 deviceId: 0x0162
+	Graphics card #0 versionInfo: DriverVersion=10.18.10.4358
+	Graphics card #1 name: NVIDIA GeForce RTX 2060 SUPER
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x1f06
+	Graphics card #1 versionInfo: DriverVersion=26.21.14.3200
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 1.33
+	Memory slot #0 type: DDR3
+	Memory slot #1 capacity (MB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 1.33
+	Memory slot #1 type: DDR3
+	Memory slot #2 capacity (MB): 4096.00
+	Memory slot #2 clockSpeed (GHz): 1.33
+	Memory slot #2 type: DDR3
+	Memory slot #3 capacity (MB): 4096.00
+	Memory slot #3 clockSpeed (GHz): 1.33
+	Memory slot #3 type: DDR3
+	Virtual memory max (MB): 28544.32
+	Virtual memory used (MB): 9775.71
+	Swap memory total (MB): 12288.00
+	Swap memory used (MB): 49.50
+	JVM Flags: 5 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx9216m -Xms256m -XX:PermSize=256m
+	Fabric Mods: 
+		additionaladditions: Additional Additions 2.1.2
+		adorn: Adorn 2.1.4+1.17.1
+		advanced_runtime_resource_pack: Runtime Resource Pack 0.2.9
+		advancements-enlarger: Advancements Enlarger 0.2.4
+		ambientenvironment: Ambient Environment 6.0.21
+		amecsapi: Amecs API 1.1.5+mc21w16a
+		animal_feeding_trough: Animal Feeding Trough 1.0.2
+		appleskin: AppleSkin mc1.17-2.1.3
+		architectury: Architectury 2.5.27
+		arfo: Artificial Foliage 1.9
+		artifality: Artifality 0.3.3
+		atmosfera: Atmosfera 2.0.0+mc1.17
+		attachleadstologs: Attachleadstologs 1.0.0-1.17.1
+		axolotlitemfix: Axolotl Item Fix 1.1.2
+		balancedrecall: Balanced Recall 1.0.0
+		balm-fabric: Balm 1.3.0+0
+		beenfo: Beenfo 1.17.1-fabric0.36.1-1.3.2
+		better_withered_mobs: Better Withered Mobs 1.6.1
+		betterf3: BetterF3 1.1.5
+		blockus: Blockus 2.2.8+1.17.1
+		blue_endless_jankson: jankson 1.1.0
+		blur: Blur (Fabric) 2.1.0
+		bountiful: Bountiful 1.0.0
+		cardinal-components-base: Cardinal Components API (base) 3.1.1
+		cardinal-components-block: Cardinal Components API (blocks) 3.1.1
+		cardinal-components-chunk: Cardinal Components API (chunks) 3.0.0
+		cardinal-components-entity: Cardinal Components API (entities) 3.1.1
+		cardinal-components-item: Cardinal Components API (items) 3.0.1
+		cardinal-components-level: Cardinal Components API (world saves) 3.0.0-nightly.1.17-pre2
+		cardinal-components-util: Cardinal Components API (utilities) 3.0.0-nightly.1.17-pre2
+		cardinal-components-world: Cardinal Components API (worlds) 3.0.0-nightly.1.17-pre2
+		carrier: Carrier 1.8.0
+		cavebiomes: Cave Biomes 0.6.3
+		chipped: Chipped 1.1.1
+		cleanview: CleanView 1.17.1-v1-fabric
+		clear-skies: Clear Skies 1.5.70
+		cloth-api: Cloth API 2.0.54
+		cloth-basic-math: Cloth Basic Math 0.5.1
+		cloth-client-events-v0: Cloth Client Events v0 2.0.54
+		cloth-common-events-v1: Cloth Common Events v1 2.0.54
+		cloth-config2: Cloth Config v5 5.0.38
+		cloth-datagen-api-v1: Cloth Datagen v1 2.0.54
+		cloth-scissors-api-v1: Cloth Scissors API v1 2.0.54
+		cloth-utils-v1: Cloth Utils v1 2.0.54
+		clumps: Clumps fabric-1.17.1-7.0.5
+		coat: Coat 1.0.0-beta.9
+		com_flowpowered_flow-math: flow-math 1.0.3
+		com_github_dimensionaldevelopment_poly2tri_java: poly2tri.java 0.1.1
+		com_moandjiezana_toml_toml4j: toml4j 0.7.2
+		comforts: Comforts 0.0.6-1.17.1
+		companion_bats: Companion Bats 1.17.6
+		cosmetic-armor: Cosmetic Armor 1.1.0
+		cotton-config: Cotton Config 1.0.0-rc.7
+		cotton-logging: Cotton Logging 1.0.0-rc.4
+		creativekeybind: CreativeKeybind 1.0.1
+		crowdin-translate: CrowdinTranslate 1.3+1.17
+		ctm: ConnectedTexturesMod for Fabric 0.5.1+1.17
+		culinaire: Culinaire 2.1
+		cullleaves: Cull Leaves 2.2.0
+		custom-fog: Custom Fog 1.6.0
+		customstars: Custom Stars 0.5
+		darkpaintings: Dark Paintings 4.0.2
+		dawn: Dawn API 2.0.6
+		decorative: Decorative 4.1.1
+		dimdoors: DimensionalDoors 4.0.0+beta.2-26.07.2021
+		dontdropit: Don't Drop It! 2.3.1+1.17
+		doomangelring: Doom Angel Ring 1.0.1
+		drinkbeer: Drink Beer 2.1
+		dynamicfps: Dynamic FPS 2.0.5
+		earthtojavamobs: Earth2Java 1.7.3+1.17
+		eldritch_mobs: Eldritch Mobs 1.9.2
+		enchant_giver: Enchant Giver 1.1.0
+		enchantmentdescriptions: Enchantment Descriptions 4.0.1
+		endless_cake: Endless Cake 1.0.0
+		enhancedcelestials: Enhanced Celestials 2.0.4
+		fabric: Fabric API 0.39.2+1.17
+		fabric-api-base: Fabric API Base 0.3.0+a02b446313
+		fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.3.0+2f75c6ce18
+		fabric-biome-api-v1: Fabric Biome API (v1) 3.2.0+b06cb95b18
+		fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.5+a02b446318
+		fabric-command-api-v1: Fabric Command API (v1) 1.1.3+5ab9934c18
+		fabric-commands-v0: Fabric Commands (v0) 0.2.2+92519afa18
+		fabric-containers-v0: Fabric Containers (v0) 0.1.12+a02b446318
+		fabric-content-registries-v0: Fabric Content Registries (v0) 0.3.0+211ddf9518
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.1.5+be9da31018
+		fabric-dimensions-v1: Fabric Dimensions API (v1) 2.0.11+6cefd57718
+		fabric-entity-events-v1: Fabric Entity Events (v1) 1.2.2+62e33f4118
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.9+a722d8c018
+		fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.1+92519afa18
+		fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.7+6cefd57718
+		fabric-item-api-v1: Fabric Item API (v1) 1.2.4+a02b44633d
+		fabric-item-groups-v0: Fabric Item Groups (v0) 0.2.10+b7ab612118
+		fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.4+a02b446318
+		fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.2+36b77c3e18
+		fabric-language-kotlin: Fabric Language Kotlin 1.6.4+kotlin.1.5.30
+		fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 1.4.4+a02b44633d
+		fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.0.4+a02b446318
+		fabric-mining-levels-v0: Fabric Mining Levels (v0) 0.1.3+92519afa18
+		fabric-models-v0: Fabric Models (v0) 0.3.0+a02b446318
+		fabric-networking-api-v1: Fabric Networking API (v1) 1.0.13+2e8bd82f18
+		fabric-networking-blockentity-v0: Fabric Networking Block Entity (v0) 0.2.11+a02b446318
+		fabric-networking-v0: Fabric Networking (v0) 0.3.2+92519afa18
+		fabric-object-builder-api-v1: Fabric Object Builder API (v1) 1.10.9+b7ab612118
+		fabric-object-builders-v0: Fabric Object Builders (v0) 0.7.3+a02b446318
+		fabric-particles-v1: Fabric Particles (v1) 0.2.4+a02b446318
+		fabric-permissions-api-v0: fabric-permissions-api 0.1-SNAPSHOT
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.7.10+e2961fee18
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 0.4.4+5f02c96918
+		fabric-renderer-indigo: Fabric Renderer - Indigo 0.4.8+a02b446318
+		fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.1+b06cb95b18
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.1.5+a02b446313
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 0.1.13+a02b446318
+		fabric-rendering-v0: Fabric Rendering (v0) 1.1.2+92519afa18
+		fabric-rendering-v1: Fabric Rendering (v1) 1.8.0+b06cb95b18
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.4.8+a00e834b18
+		fabric-screen-api-v1: Fabric Screen API (v1) 1.0.4+155f865c18
+		fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.1.8+a02b446318
+		fabric-structure-api-v1: Fabric Structure API (v1) 1.1.13+5ab9934c18
+		fabric-tag-extensions-v0: Fabric Tag Extensions (v0) 1.2.1+b06cb95b18
+		fabric-textures-v0: Fabric Textures (v0) 1.0.6+a02b446318
+		fabric-tool-attribute-api-v1: Fabric Tool Attribute API (v1) 1.2.12+b7ab61213d
+		fabric-transfer-api-v1: Fabric Transfer API (v1) 1.1.2+96bf6a7e18
+		fabricloader: Fabric Loader 0.11.6
+		fabulousclouds: Fabulous Clouds 0.2.3
+		fallflyinglib: FallFlyingLib 3.0.0-beta.2
+		fallingleaves: Falling Leaves 1.7.3+1.17.1
+		fallingtree: FallingTree 2.13.0
+		fastchest: FastChest 1.2+1.17
+		ferritecore: FerriteCore 3.0.3
+		fiber: fiber 0.23.0-2
+		flonters: Flonters 1.2.1+1.17.1
+		fpsreducer: FPS Reducer 1.23.1-mc1.17.1
+		gbfabrictools: GBfabrictools 1.3.4+1.17
+		geckolib3: Geckolib 3.0.13
+		geodes: Resourceful Geodes 1.1.0
+		glassential: Glassential 1.17-1.2.0
+		gobber2: Gobber2 2.4.41
+		grass_pass: Grass Bypass 1.0.0
+		gravelminer: GravelMiner 11.0.0+0
+		graveyard: The Graveyard 1.0
+		grindenchantments: Grind Enchantments 1.2.1+1.17
+		guardiansgalore: GuardiansGalore 1.17.1-2.1
+		heartbond: Heartbond 1.1.0
+		hellish-materials: Hellish Materials 0.13.0
+		here-be-no-dragons: Here be no Dragons! 1.0.0
+		hookshot: Hookshot 19.0
+		hydrogen: Hydrogen 0.3
+		illuminations: Illuminations 1.7
+		improvedhoes: Improved Hoes 2.0
+		incantationem: Incantationem 1.1.2+1.17.1
+		indium: Indium 1.0.0+mc1.17.1
+		indypets: Independent Pets 0.7.0
+		inventoryhud: Inventory HUD + 3.4.0
+		inventoryprofilesnext: Inventory Profiles Next 1.0.0
+		jankson: Jankson 3.0.1+j1.2.0
+		java: OpenJDK 64-Bit Server VM 16
+		kambrik: Kambrik 1.1.0
+		keeptherain: Keep The Rain! 0.2.0
+		ksrch: Keybind Search 1.0.0
+		lakeside: Lakeside 1.1.0+1.17
+		lambdynlights: LambDynamicLights 2.0.2+1.17
+		lazydfu: LazyDFU 0.1.2
+		lenientdeath: Lenient Death 0.7.4
+		libcd: LibCapableData 3.0.3+1.16.3
+		libgui: LibGui 4.1.6+1.17.1
+		libninepatch: LibNinePatch 1.1.0
+		lithium: Lithium 0.7.4
+		lovely_snails: Lovely Snails 1.0.3+1.17
+		magicfungi: Magic Fungi 0.2.0-BETA+1.17.1
+		matrix: Matrix 1.0.0
+		mavm: More Axolotl Variants Mod 1.0.3a
+		mcda: MC Dungeons Armors 1.7.10
+		mcdar: MC Dungeons Artifacts 1.4.1
+		mcdw: MC Dungeons Weapons 3.4.1
+		midnightlib: MidnightLib 0.2.4
+		mighty_mangoes: Mighty Mangoes 1.0.5
+		minecraft: Minecraft 1.17.1
+		mm: Manningham Mills 2.2
+		mob_catcher: Mob Catcher 1.0.8
+		modid: Deep Pockets 2.0.1
+		modify-drops-api: Modify Drops API 0.3.2
+		modmanager: Mod Manager 1.0.1+1.17-alpha
+		modmenu: Mod Menu 2.0.7
+		more_gems: More Gems 1.2.33
+		morebakedfoods: More Baked Foods 1.2.0
+		moreberries: More Berries 1.4.2
+		morevillagers-fabric: MoreVillagersFabric 2.0.4-SNAPSHOT
+		mossywood: Overgrown Blocks 1.1
+		mostructures: Mo' Structures 1.3.0-pre1-1.17.1
+		mousewheelie: Mouse Wheelie 1.7.3-newconfig+mc1.17.1-pre1
+		multi_item_lib: Multi Item Lib 1.4.0
+		mythic-mounts: Mythic Mounts 1.17.1-1.2
+		nauticality: Nauticality 0.1.2
+		nbtcrafting: NBT Crafting 2.0.19+mc1.17
+		netherite_nugget: Netherite Nuggets 1.3.0
+		nocreativedrift: NoCreativeDrift 1.17.1-2.0.2.0-fabric
+		nomoreglowingpots: No More Glowing Pots 1.0.2
+		notenoughcrashes: Not Enough Crashes 3.4.4+1.17
+		notes: Notes 1.0.6
+		omega-config: OmegaConfig 1.0.8
+		org_aperlambda_lambdajcommon: lambdajcommon 1.8.1
+		org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 1.5.30
+		org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 1.5.30
+		org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 1.5.30
+		org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 1.5.30
+		org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.5.1
+		org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.5.1
+		org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.2.2
+		org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.2.2
+		org_jgrapht_jgrapht-core: jgrapht-core 1.1.0
+		outvoted: Outvoted 2.0.0-alpha.12
+		oxidized: Oxidized 1.3.0
+		oxidizelib: OxidizeLib 1.1.0
+		paintings: Paintings ++ 1.17.1-1.0.0.0
+		particlerain: Particle Rain 1.4.1
+		passivecharms: Passive Charms 1.1.0
+		patchouli: Patchouli 1.17-54-FABRIC
+		pettable: Pettable 1.2.0
+		platypus: Platypuses 1.0.0
+		playerabilitylib: Pal 1.3.0
+		pling: Pling 1.4.0
+		polymorph: Polymorph 0.0.12-1.17.1
+		ppp: Port's Parrots Plus 1.3.0
+		promenade: Promenade 2.1.2
+		pugh_lib: Pugh Lib ${version}
+		pugh_tools: Pugh Tools ${version}
+		quickspyglasser: Quick Spyglasser 0.3.0
+		randomtp: Random Teleport Mod 5.0.1+1.17
+		reach-entity-attributes: Reach Entity Attributes 2.1.1
+		reapingmod: Reaping Mod 1.4.0
+		recipeconditions: Fabric Recipe Conditions 0.4.0
+		repurposed_structures: Repurposed Structures 2.3.2+1.17.1
+		resourceful_tools: Resourceful Tools 1.1.19
+		right-click-clear: Right Click Clear 2.0.3
+		rocks: This Rocks! 1.4.0
+		roughlyenoughitems: Roughly Enough Items 6.0.279-alpha
+		ruined_equipment: Ruined Equipment 1.3.0
+		satin: Satin 1.6.0-nightly.1.17-pre3
+		sentimentality3: Sentimentality 3 1.3.2
+		shulkerboxtooltip: Shulker Box Tooltip 3.0.1+1.17
+		simpletech: SimpleTech 0.0.5
+		sit: Sit 1.17.1-13
+		skylorlib: SkyLib 1.0.3
+		soaringstructures2: Soaring Structures 2 1.17.1 - 1.8.5
+		sodium: Sodium 0.3.0+build.5
+		someforgepatchesported: Some Forge Patches Ported 1.0.1
+		somnus: Somnus API 0.0.13-1.17.1
+		spark: spark 1.6.1
+		spiceoffabric: Spice of Fabric 1.3.5+1.17.1
+		spirit: Spirit 1.1.0
+		spruceui: SpruceUI 3.2.0+1.17
+		spyzoom: Spyglass Zoom 1.0.1
+		stepup: StepUp 1.17.1-fabric0.36.1-1.1
+		suitablystackablestew: Suitably Stackable Stew 1.1.2
+		terraform-biome-builder-api-v1: Terraform Biome Builder API (v1) 2.0.0
+		terraform-config-api-v1: Terraform Config API (v1) 2.0.0
+		terraform-overworld-biome-extensions-api-v1: Terraform Overworld Biome Extensions API (v1) 2.0.0
+		terraform-shapes-api-v1: Terraform Shapes API (v1) 1.0.4
+		terraform-surfaces-api-v1: Terraform Surfaces API (v1) 2.0.0
+		terraform-tree-api-v1: Terraform Tree API (v1) 2.0.0
+		terraform-wood-api-v1: Terraform Wood API (v1) 2.0.2
+		the_loved_ones: The Loved Ones 1.2.0+1.17
+		things: Things 0.2.5
+		tokenablefurnaces: Tokenable Furnaces 1.1.2
+		traverse: Traverse 4.0.0-beta.2
+		trinkets: Trinkets 3.0.3
+		tweed: Tweed API 3.0.0-beta.22
+		tweed4_annotated: tweed4_annotated 1.0.0
+		tweed4_base: tweed4_base 1.0.0
+		tweed4_data: tweed4_data 1.0.0
+		tweed4_data_hjson: tweed4_data_hjson 1.0.0
+		tweed4_tailor_coat: tweed4_tailor_coat 1.0.0
+		tweed4_tailor_screen: tweed4_tailor_screen 1.0.0
+		untitledduckmod: Untitled Duck Mod 0.3.0
+		vanilla_degus: Vanilla Degus 1.2.0
+		vanillatweaks: VanillaTweaks 1.17.1-1.0.11
+		veinmining: Vein Mining 0.0.10-1.17
+		visionring: Vision Ring 1.0.0
+		wandering_collector: Wandering Collector 1.0.2+mc1.17
+		whereisit: Where Is It 1.13.3
+		winged: Winged Mod 1.17.1-3.0.0
+		wthit: wthit 3.8.1
+		xaerominimap: Xaero's Minimap 21.16.0
+		xaeroworldmap: Xaero's World Map 1.17.0
+		xp_storage: XP Storage 1.4.2+1.17.1
+		xp_storage_trinkets: XP Storage - Trinkets 0.1+1.17.1
+		yatm: Yet Another Tweaks Mod 0.1.1
+	Launched Version: 1.17.1
+	Backend library: LWJGL version 3.2.2 build 10
+	Backend API: NO CONTEXT
+	Window size: <not initialized>
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: <disabled>
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Type: Client (map_client.txt)
+	CPU: <unknown>
+	Suspected Mods: Fabric Loader (fabricloader), Paintings ++ (paintings)
