@@ -30,7 +30,12 @@
     "backpackmod:amethyst_backpack",
     "backpackmod:gold_backpack",
     "backpackmod:diamond_backpack",
-    "backpackmod:netherite_backpack"
+    "backpackmod:netherite_backpack",
+    "gobber2:gobber2_ring_teleport",
+    "balancedrecall:magic_mirror",
+    "xp_storage:xp_book",
+    "xp_storage:xp_book2",
+    "xp_storage:xp_book3"
   ],
   "tags": [
     "lenientdeath:safe"

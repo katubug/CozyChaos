@@ -1820,6 +1820,10 @@
     "arfo:colorable_oak_leaves": {
       "spawnRateFactor": 1.0,
       "isConiferBlock": false
+    },
+    "croptopia:cinnamon_leaves": {
+      "spawnRateFactor": 1.0,
+      "isConiferBlock": false
     }
   }
 }
