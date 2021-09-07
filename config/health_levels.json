@@ -19,5 +19,6 @@
   ],
   "hpPerLevel": 2,
   "startingHP": 20,
-  "healOnLevelUp": true
+  "healOnLevelUp": true,
+  "loseType": "LEVELS_AND_XP"
 }
