@@ -18,7 +18,6 @@
     5000
   ],
   "hpPerLevel": 2,
-  "startingHP": 10,
-  "healOnLevelUp": true,
-  "loseType": "XP"
+  "startingHP": 20,
+  "healOnLevelUp": true
 }

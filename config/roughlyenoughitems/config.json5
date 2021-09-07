@@ -4,7 +4,7 @@
 			"{data:{Count:1b,id:\"minecraft:polished_blackstone_wall\",type:\"minecraft:item\"},type:\"roughlyenoughitems:entry_stack\"}"
 		],
 		// Declares whether cheating mode is on.
-		"cheating": true,
+		"cheating": false,
 		"favoritesEnabled": true,
 		"keyBindings": {
 			"recipeKeybind": {
