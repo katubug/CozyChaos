@@ -1,0 +1,413 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 9/9/21, 7:04 PM
+Description: Exception ticking world
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_1936.method_8320(net.minecraft.class_2338)" because "world" is null
+	at net.minecraft.block.CropBlock.createParticles(CropBlock:564)
+	at net.minecraft.block.CropBlock.handler$cdo000$sparkleTick(CropBlock:550)
+	at net.minecraft.block.CropBlock.randomTick(CropBlock)
+	at net.minecraft.block.AbstractBlock$AbstractBlockState.randomTick(AbstractBlock:922)
+	at net.minecraft.server.world.ServerWorld.redirect$cij000$redirectBlockStateTick(ServerWorld:6085)
+	at net.minecraft.server.world.ServerWorld.tickChunk(ServerWorld:535)
+	at net.minecraft.server.world.ServerChunkManager.method_20801(ServerChunkManager:370)
+	at java.util.ArrayList.forEach(ArrayList.java:1511)
+	at net.minecraft.server.world.ServerChunkManager.tickChunks(ServerChunkManager:355)
+	at net.minecraft.server.world.ServerChunkManager.tick(ServerChunkManager:324)
+	at net.minecraft.server.world.ServerWorld.tick(ServerWorld:372)
+	at net.minecraft.server.MinecraftServer.tickWorlds(MinecraftServer:891)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer:831)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer:96)
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer:697)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer:270)
+	at java.lang.Thread.run(Thread.java:831)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at net.minecraft.class_2302.createParticles(class_2302.java:564)
+	at net.minecraft.class_2302.handler$cdo000$sparkleTick(class_2302.java:550)
+	at net.minecraft.class_2302.method_9514(class_2302.java)
+	at net.minecraft.class_4970$class_4971.method_26199(class_4970.java:922)
+	at net.minecraft.class_3218.redirect$cij000$redirectBlockStateTick(class_3218.java:6085)
+	at net.minecraft.class_3218.method_18203(class_3218.java:535)
+	at net.minecraft.class_3215.method_20801(class_3215.java:370)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
+-- Patchouli Book Info --
+Details:
+	Patchouli open book context: n/a
+Stacktrace:
+	at net.minecraft.class_128.handler$dhk000$fillPatchouliContext(class_128.java:1521)
+	at net.minecraft.class_128.<init>(class_128.java:37)
+	at net.minecraft.class_128.method_560(class_128.java:267)
+	at net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:893)
+	at net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:831)
+	at net.minecraft.class_1132.method_3748(class_1132.java:96)
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:697)
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:270)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+-- Affected level --
+Details:
+	All players: 1 total; [class_3222['Katubug'/2976, l='ServerLevel[New World]', x=168.50, y=82.00, z=5.50]]
+	Chunk stats: 2025
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (176,84,0), Section: (at 0,4,0 in 11,5,0; chunk contains blocks 176,0,0 to 191,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 4 game time, 4 day time
+	Level name: New World
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+	Level weather: Rain time: 21531 (now: false), thunder time: 81111 (now: false)
+	Known server brands: fabric
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+
+-- System Details --
+Details:
+	Minecraft Version: 1.17.1
+	Minecraft Version ID: 1.17.1
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 16.0.1, Microsoft
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Microsoft
+	Memory: 1748643336 bytes (1667 MiB) / 5427429376 bytes (5176 MiB) up to 9663676416 bytes (9216 MiB)
+	CPUs: 8
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-3770 CPU @ 3.40GHz
+	Identifier: Intel64 Family 6 Model 58 Stepping 9
+	Microarchitecture: Ivy Bridge (Client)
+	Frequency (GHz): 3.50
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: Intel(R) HD Graphics 4000
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 2112.00
+	Graphics card #0 deviceId: 0x0162
+	Graphics card #0 versionInfo: DriverVersion=10.18.10.4358
+	Graphics card #1 name: NVIDIA GeForce RTX 2060 SUPER
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x1f06
+	Graphics card #1 versionInfo: DriverVersion=27.21.14.5671
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 1.33
+	Memory slot #0 type: DDR3
+	Memory slot #1 capacity (MB): 4096.00
+	Memory slot #1 clockSpeed (GHz): 1.33
+	Memory slot #1 type: DDR3
+	Memory slot #2 capacity (MB): 4096.00
+	Memory slot #2 clockSpeed (GHz): 1.33
+	Memory slot #2 type: DDR3
+	Memory slot #3 capacity (MB): 4096.00
+	Memory slot #3 clockSpeed (GHz): 1.33
+	Memory slot #3 type: DDR3
+	Virtual memory max (MB): 23424.32
+	Virtual memory used (MB): 15806.44
+	Swap memory total (MB): 7168.00
+	Swap memory used (MB): 38.13
+	JVM Flags: 5 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xss1M -Xmx9216m -Xms256m -XX:PermSize=256m
+	Fabric Mods: 
+		additionaladditions: Additional Additions 2.1.2
+		adorn: Adorn 2.1.4+1.17.1
+		advanced_runtime_resource_pack: Runtime Resource Pack 0.2.9
+		advancements-enlarger: Advancements Enlarger 0.2.4
+		ambientenvironment: Ambient Environment 6.0.21
+		amecsapi: Amecs API 1.1.5+mc21w16a
+		antighost: AntiGhost 1.17.1-fabric0.36.1-1.1.4
+		appleskin: AppleSkin mc1.17-2.1.3
+		architectury: Architectury 2.5.27
+		arfo: Artificial Foliage 1.9
+		artifality: Artifality 0.3.5
+		atmosfera: Atmosfera 2.0.0+mc1.17
+		attachleadstologs: Attachleadstologs 1.0.0-1.17.1
+		authme: Auth Me 1.5.0
+		axolotlitemfix: Axolotl Item Fix 1.1.2
+		backpackmod: Backpack Mod 1.17-2.0.1
+		balancedrecall: Balanced Recall 1.0.0
+		balm-fabric: Balm 1.3.0+0
+		bclib: BCLib 0.3.1
+		better_withered_mobs: Better Withered Mobs 1.6.1
+		betterdungeons: YUNG's Better Dungeons 1.17-1.0
+		betterf3: BetterF3 1.1.5
+		blockus: Blockus 2.2.8+1.17.1
+		blue_endless_jankson: jankson 1.2.1
+		blur: Blur (Fabric) 2.1.0
+		bountiful: Bountiful 1.0.0
+		can-i-mine-this-block: cAn i MiNe thIS bLOCk? 1.1.0
+		cardinal-components-base: Cardinal Components API (base) 3.1.1
+		cardinal-components-block: Cardinal Components API (blocks) 3.1.1
+		cardinal-components-chunk: Cardinal Components API (chunks) 3.0.0
+		cardinal-components-entity: Cardinal Components API (entities) 3.1.1
+		cardinal-components-item: Cardinal Components API (items) 3.0.1
+		carrier: Carrier 1.8.0
+		cavebiomes: Cave Biomes 0.6.3
+		chat_plus: Chat+ 2.1.5
+		chipped: Chipped 1.1.1
+		cleanview: CleanView 1.17.1-v1-fabric
+		clear-skies: Clear Skies 1.5.70
+		cloth-api: Cloth API 2.0.54
+		cloth-basic-math: Cloth Basic Math 0.5.1
+		cloth-client-events-v0: Cloth Client Events v0 2.0.54
+		cloth-common-events-v1: Cloth Common Events v1 2.0.54
+		cloth-config2: Cloth Config v5 5.0.38
+		cloth-datagen-api-v1: Cloth Datagen v1 2.0.54
+		cloth-scissors-api-v1: Cloth Scissors API v1 2.0.54
+		cloth-utils-v1: Cloth Utils v1 2.0.54
+		clumps: Clumps fabric-1.17.1-7.0.5
+		coat: Coat 1.0.0-beta.9
+		com_electronwill_night-config_core: core 3.6.3
+		com_electronwill_night-config_toml: toml 3.6.3
+		com_moandjiezana_toml_toml4j: toml4j 0.7.2
+		comforts: Comforts 0.0.6-1.17.1
+		companion_bats: Companion Bats 1.17.6
+		cosmetic-armor: Cosmetic Armor 1.1.0
+		cotton-config: Cotton Config 1.0.0-rc.7
+		cotton-logging: Cotton Logging 1.0.0-rc.4
+		couplings: Couplings 1.5.0+1.17
+		croptopia: Croptopia 1.6.1
+		crowdin-translate: CrowdinTranslate 1.3+1.17
+		culinaire: Culinaire 2.1
+		cullleaves: Cull Leaves 2.2.0
+		customstars: Custom Stars 0.5
+		darkpaintings: Dark Paintings 4.0.2
+		dawn: Dawn API 2.0.6
+		decorative: Decorative 4.1.1
+		defaultsettings: DefaultSettings 3.0.3
+		diggusmaximus: Diggus Maximus 1.4.5-1.17
+		dontdropit: Don't Drop It! 2.3.1+1.17
+		doomangelring: Doom Angel Ring 1.0.1
+		dynamicfps: Dynamic FPS 2.0.5
+		earthtojavamobs: Earth2Java 1.7.3+1.17
+		eer: Erroring Entity Remover 1.0.1+1.17.1
+		eldritch_mobs: Eldritch Mobs 1.9.5
+		enchant_giver: Enchant Giver 1.1.0
+		enchantmentdescriptions: Enchantment Descriptions 4.0.1
+		endless_cake: Endless Cake 1.0.0
+		endrem: End Remastered 4.1.0
+		enhancedcelestials: Enhanced Celestials 2.0.5
+		extra_enchants: Extra Enchants 0.1.2
+		extraalchemy: Extra Alchemy 1.6.1
+		fabric: Fabric API 0.40.1+1.17
+		fabric-api-base: Fabric API Base 0.3.0+a02b446313
+		fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.3.0+cbda931818
+		fabric-biome-api-v1: Fabric Biome API (v1) 3.2.0+cbda931818
+		fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.5+a02b446318
+		fabric-command-api-v1: Fabric Command API (v1) 1.1.3+5ab9934c18
+		fabric-commands-v0: Fabric Commands (v0) 0.2.2+92519afa18
+		fabric-containers-v0: Fabric Containers (v0) 0.1.12+cbda931818
+		fabric-content-registries-v0: Fabric Content Registries (v0) 0.3.0+cbda931818
+		fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.1.5+be9da31018
+		fabric-dimensions-v1: Fabric Dimensions API (v1) 2.0.11+6cefd57718
+		fabric-entity-events-v1: Fabric Entity Events (v1) 1.2.3+87cc6e4c18
+		fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.10+fc40aa9d18
+		fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.1+92519afa18
+		fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.7+cbda931818
+		fabric-item-api-v1: Fabric Item API (v1) 1.2.4+a02b44633d
+		fabric-item-groups-v0: Fabric Item Groups (v0) 0.2.10+b7ab612118
+		fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.4+cbda931818
+		fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.2+36b77c3e18
+		fabric-language-kotlin: Fabric Language Kotlin 1.6.4+kotlin.1.5.30
+		fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 1.4.4+a02b44633d
+		fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.0.4+a02b446318
+		fabric-mining-levels-v0: Fabric Mining Levels (v0) 0.1.3+92519afa18
+		fabric-models-v0: Fabric Models (v0) 0.3.0+a02b446318
+		fabric-networking-api-v1: Fabric Networking API (v1) 1.0.13+cbda931818
+		fabric-networking-blockentity-v0: Fabric Networking Block Entity (v0) 0.2.11+a02b446318
+		fabric-networking-v0: Fabric Networking (v0) 0.3.2+92519afa18
+		fabric-object-builder-api-v1: Fabric Object Builder API (v1) 1.10.9+cbda931818
+		fabric-object-builders-v0: Fabric Object Builders (v0) 0.7.3+a02b446318
+		fabric-particles-v1: Fabric Particles (v1) 0.2.4+a02b446318
+		fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.7.10+e2961fee18
+		fabric-renderer-api-v1: Fabric Renderer API (v1) 0.4.4+cbda931818
+		fabric-renderer-indigo: Fabric Renderer - Indigo 0.4.8+cbda931818
+		fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.3+4658223018
+		fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.1.5+a02b446313
+		fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 0.1.14+4658223018
+		fabric-rendering-v0: Fabric Rendering (v0) 1.1.4+4658223018
+		fabric-rendering-v1: Fabric Rendering (v1) 1.8.2+ffb6d41e18
+		fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.4.8+a00e834b18
+		fabric-screen-api-v1: Fabric Screen API (v1) 1.0.4+198a96213d
+		fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.1.8+cbda931818
+		fabric-structure-api-v1: Fabric Structure API (v1) 1.1.13+5ab9934c18
+		fabric-tag-extensions-v0: Fabric Tag Extensions (v0) 1.2.1+b06cb95b18
+		fabric-textures-v0: Fabric Textures (v0) 1.0.6+a02b446318
+		fabric-tool-attribute-api-v1: Fabric Tool Attribute API (v1) 1.2.12+b7ab61213d
+		fabric-transfer-api-v1: Fabric Transfer API (v1) 1.3.1+4658223018
+		fabricloader: Fabric Loader 0.11.6
+		fabulousclouds: Fabulous Clouds 0.2.3
+		fallflyinglib: FallFlyingLib 3.0.0-beta.2
+		fallingleaves: Falling Leaves 1.7.3+1.17.1
+		fallingtree: FallingTree 2.13.0
+		fastchest: FastChest 1.2+1.17
+		ferritecore: FerriteCore 3.0.3
+		fiber: fiber 0.23.0-2
+		flonters: Flonters 1.2.1+1.17.1
+		flytre-lib-base: Flytre Lib - Base Module 1.2.0
+		flytre-lib-compat: Flytre Lib - Compat Module 1.0.0
+		flytre-lib-config: Flytre Lib - Config Module 1.1.0
+		flytre-lib-event: Flytre Lib - Event Module 1.0.1
+		flytre-lib-gui: Flytre Lib - GUI Module 1.0.0
+		flytre-lib-storage: Flytre Lib - Storage Module 2.3.1
+		flytre_lib: Flytre Lib 1.3.7
+		gbfabrictools: GBfabrictools 1.3.4+1.17
+		geckolib3: Geckolib 3.0.13
+		geodes: Resourceful Geodes 1.1.0
+		glassential: Glassential 1.17-1.2.0
+		go-fish: Go Fish 1.3.0-beta-1.17.1
+		gobber2: Gobber2 2.4.44
+		grass_pass: Grass Bypass 1.0.0
+		gravelminer: GravelMiner 11.0.0+0
+		graveyard: The Graveyard 1.0
+		grindenchantments: Grind Enchantments 1.4.0+1.17.1
+		guardiansgalore: GuardiansGalore 1.17.1-2.1
+		health_levels: Health Levels 1.0.1
+		healthoverlay: Health Overlay 4.0.2
+		hellish-materials: Hellish Materials 0.13.0
+		here-be-no-dragons: Here be no Dragons! 1.0.0
+		hookshot: Hookshot 20.0
+		hydrogen: Hydrogen 0.3
+		illuminations: Illuminations 1.7.1
+		improved-stations: Improved Stations 2.0.7
+		improvedhoes: Improved Hoes 2.0
+		incantationem: Incantationem 1.1.2+1.17.1
+		indium: Indium 1.0.0+mc1.17.1
+		indypets: Independent Pets 0.7.0
+		inventoryhud: Inventory HUD + 3.4.0
+		inventoryprofilesnext: Inventory Profiles Next 1.0.0
+		iris: Iris 1.1.2+build.9
+		jankson: Jankson 3.0.1+j1.2.0
+		java: OpenJDK 64-Bit Server VM 16
+		kambrik: Kambrik 1.1.0
+		keeptherain: Keep The Rain! 0.2.0
+		ksrch: Keybind Search 1.0.0
+		kyrptconfig: Kytpt Config 1.1.10-1.17
+		lakeside: Lakeside 1.1.0+1.17
+		lambdynlights: LambDynamicLights 2.0.2+1.17
+		lazydfu: LazyDFU 0.1.2
+		lchunkloader: Literally Chunk Loader 2.0.3
+		lenientdeath: Lenient Death 0.7.4
+		libcd: LibCapableData 3.0.3+1.16.3
+		libgui: LibGui 4.1.6+1.17.1
+		libninepatch: LibNinePatch 1.1.0
+		lithium: Lithium 0.7.4
+		lovely_snails: Lovely Snails 1.0.3+1.17
+		magicfungi: Magic Fungi 0.3.1-BETA+1.17.1
+		mavm: More Axolotl Variants Mod 1.0.5
+		mcda: MC Dungeons Armors 1.7.10
+		mcdar: MC Dungeons Artifacts 1.4.1
+		mcdw: MC Dungeons Weapons 3.4.2
+		midnightlib: MidnightLib 0.2.4
+		mighty_mangoes: Mighty Mangoes 1.0.5
+		minecraft: Minecraft 1.17.1
+		mm: Manningham Mills 2.3
+		mob_catcher: Mob Catcher 1.0.10
+		modify-drops-api: Modify Drops API 0.3.2
+		modmenu: Mod Menu 2.0.10
+		more_gems: More Gems 1.2.34
+		morebakedfoods: More Baked Foods 1.2.0
+		moreberries: More Berries 1.4.2
+		morevillagers-fabric: MoreVillagersFabric 2.1.0-SNAPSHOT
+		mostructures: Mo' Structures 1.3.0-pre1-1.17.1
+		mousewheelie: Mouse Wheelie 1.7.3-newconfig+mc1.17.1-pre1
+		mythic-mounts: Mythic Mounts 1.17.1-1.2
+		nauticality: Nauticality 0.1.2
+		netherite_nugget: Netherite Nuggets 1.3.0
+		nomoreglowingpots: No More Glowing Pots 1.0.2
+		notenoughcrashes: Not Enough Crashes 3.4.4+1.17
+		notes: Notes 1.0.6
+		omega-config: OmegaConfig 1.0.8
+		org_aperlambda_lambdajcommon: lambdajcommon 1.8.1
+		org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 1.5.30
+		org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 1.5.30
+		org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 1.5.30
+		org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 1.5.30
+		org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.5.1
+		org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.5.1
+		org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.2.2
+		org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.2.2
+		outvoted: Outvoted 2.0.0-alpha.12
+		oxidized: Oxidized 1.4.0
+		particlerain: Particle Rain 1.4.1
+		patchouli: Patchouli 1.17-54-FABRIC
+		paxi: Paxi 1.17-1.2.2
+		pettable: Pettable 1.2.0
+		platypus: Platypuses 1.0.0
+		playerabilitylib: Pal 1.3.0
+		pling: Pling 1.4.0
+		polymorph: Polymorph 0.0.12-1.17.1
+		ppp: Port's Parrots Plus 1.3.0
+		promenade: Promenade 2.1.2
+		pugh_lib: Pugh Lib ${version}
+		pugh_tools: Pugh Tools ${version}
+		quickspyglasser: Quick Spyglasser 0.3.0
+		randomtp: Random Teleport Mod 5.0.1+1.17
+		reach-entity-attributes: Reach Entity Attributes 2.1.1
+		reapingmod: Reaping Mod 1.4.0
+		recipeconditions: Fabric Recipe Conditions 0.4.0
+		repurposed_structures: Repurposed Structures 2.3.3+1.17.1
+		reroll: Reroll 1.3.0-1.17.1
+		resourceful_tools: Resourceful Tools 1.1.20
+		right-click-clear: Right Click Clear 2.0.3
+		rocks: This Rocks! 1.4.0
+		roughlyenoughitems: Roughly Enough Items 6.0.279-alpha
+		ruined_equipment: Ruined Equipment 1.3.0
+		satin: Satin 1.6.0-nightly.1.17-pre3
+		scorch: Scorch 1.1.1
+		sentimentality3: Sentimentality 3 1.3.2
+		shulkerboxtooltip: Shulker Box Tooltip 3.0.1+1.17
+		simpletech: SimpleTech 0.0.5
+		skylorlib: SkyLib 1.0.3
+		sodium: Sodium 0.3.2+IRIS2-build.9
+		someforgepatchesported: Some Forge Patches Ported 1.0.1
+		somnus: Somnus API 0.0.13-1.17.1
+		soundphysics: Sound Physics 2.0.0
+		soundreloader: Sound Reloader 1.0.0
+		spirit: Spirit 1.1.0
+		spruceui: SpruceUI 3.2.0+1.17
+		spyzoom: Spyglass Zoom 1.0.1
+		stepup: StepUp 1.17.1-fabric0.36.1-1.1
+		suitablystackablestew: Suitably Stackable Stew 1.1.2
+		terraform-biome-builder-api-v1: Terraform Biome Builder API (v1) 2.0.0
+		terraform-config-api-v1: Terraform Config API (v1) 2.0.0
+		terraform-overworld-biome-extensions-api-v1: Terraform Overworld Biome Extensions API (v1) 2.0.0
+		terraform-shapes-api-v1: Terraform Shapes API (v1) 1.0.4
+		terraform-surfaces-api-v1: Terraform Surfaces API (v1) 2.0.0
+		terraform-tree-api-v1: Terraform Tree API (v1) 2.0.0
+		terraform-wood-api-v1: Terraform Wood API (v1) 2.0.2
+		the_loved_ones: The Loved Ones 1.2.0+1.17
+		things: Things 0.2.5
+		tokenablefurnaces: Tokenable Furnaces 1.1.2
+		toms_storage: Tom's Simple Storage Mod 1.1.14
+		traverse: Traverse 4.0.0-beta.2
+		trinkets: Trinkets 3.0.4
+		tweed: Tweed API 3.0.0-beta.22
+		tweed4_annotated: tweed4_annotated 1.0.0
+		tweed4_base: tweed4_base 1.0.0
+		tweed4_data: tweed4_data 1.0.0
+		tweed4_data_hjson: tweed4_data_hjson 1.0.0
+		tweed4_tailor_coat: tweed4_tailor_coat 1.0.0
+		tweed4_tailor_screen: tweed4_tailor_screen 1.0.0
+		untitledduckmod: Untitled Duck Mod 0.3.0
+		vanilla_degus: Vanilla Degus 1.2.0
+		vanillatweaks: VanillaTweaks 1.17.1-1.0.11
+		wandering_collector: Wandering Collector 1.0.2+mc1.17
+		waystones: Waystones 2.0.4
+		whereisit: Where Is It 1.13.5
+		winged: Winged Mod 1.17.1-3.0.0
+		wthit: wthit 3.9.0
+		xaerominimap: Xaero's Minimap 21.16.0
+		xaeroworldmap: Xaero's World Map 1.17.0
+		xp_storage: XP Storage 1.4.2+1.17.1
+		xp_storage_trinkets: XP Storage - Trinkets 0.1+1.17.1
+		yatm: Yet Another Tweaks Mod 0.1.1
+		yungsapi: YUNG's API 1.17-Fabric-16
+	Player Count: 1 / 8; [class_3222['Katubug'/2976, l='ServerLevel[New World]', x=168.50, y=82.00, z=5.50]]
+	Data Packs: vanilla, moreberries/berrybushrecipes, Better+Traders+V3.zip, BlazeandCave's+Advancements+Pack+1.12.4.zip, Fancier+Mansions+v1.0.zip (incompatible), More+Crafting+and+Item+Breakdown.zip, PlatyPack+1.7.0.1+Server.zip, Silkless+Campfires+V2.1.zip (incompatible), datapack.zip (incompatible), iwssn.zip, Fabric Mods
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Suspected Mods: None

@@ -35,7 +35,8 @@
     "balancedrecall:magic_mirror",
     "xp_storage:xp_book",
     "xp_storage:xp_book2",
-    "xp_storage:xp_book3"
+    "xp_storage:xp_book3",
+    "companion_bats:bat_flute"
   ],
   "tags": [
     "lenientdeath:safe"
