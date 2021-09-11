@@ -8,5 +8,17 @@
 	"renderVanillaWeather": false,
 	"doRainParticles": true,
 	"doSnowParticles": true,
-	"doSandParticles": true
+	"doSandParticles": true,
+	"rainRed": 0.0,
+	"rainGreen": 0.0,
+	"rainBlue": 1.0,
+	"snowRed": 1.0,
+	"snowGreen": 1.0,
+	"snowBlue": 1.0,
+	"desertDustRed": 0.8999999761581421,
+	"desertDustGreen": 0.800000011920929,
+	"desertDustBlue": 0.6000000238418579,
+	"mesaDustRed": 0.800000011920929,
+	"mesaDustGreen": 0.4000000059604645,
+	"mesaDustBlue": 0.0
 }
