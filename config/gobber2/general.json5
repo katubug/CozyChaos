@@ -68,6 +68,7 @@
 	"ringBlinkDistance": 100,
 	"ringBlinkCooldown": 120,
 	"ringExplorerCooldown": 240,
+	"ringExplorerUsePlayerPos": false,
 	"ringExplorerMin": 5000,
 	"ringExplorerMax": 20000,
 	"ringFarmerHorizRange": 12,
@@ -141,6 +142,7 @@
 	"gobberDurability": 3800,
 	"gobberMiningSpeed": 9.0,
 	"gobberAttackDamage": 9.0,
+	"gobberSwordAttackSpeed": 2.0,
 	"gobberMiningLevel": 4,
 	"gobberEnchantability": 20,
 	/* 
@@ -153,6 +155,7 @@
 	"gobberNetherDurability": 5200,
 	"gobberNetherMiningSpeed": 12.0,
 	"gobberNetherAttackDamage": 9.0,
+	"gobberNetherSwordAttackSpeed": 2.200000047683716,
 	"gobberNetherMiningLevel": 5,
 	"gobberNetherEnchantability": 25,
 	/* 
@@ -166,6 +169,7 @@
 	"gobberEndDurability": 8000,
 	"gobberEndMiningSpeed": 14.0,
 	"gobberEndAttackDamage": 9.0,
+	"gobberEndSwordAttackSpeed": 2.4000000953674316,
 	"gobberEndMiningLevel": 5,
 	"gobberEndEnchantability": 30,
 	/* 
@@ -294,12 +298,14 @@
 	   Item provides a one-time random teleport
 	   and is consumed after successful teleport.
 	   Min/Max range from world spawn to search
+	   or from the player's current position
 	   Item does NOT have a standard recipe
 	   ***********************
 	*/
 	"enableSpecialItem": true,
 	"specialItemMin": 20000,
 	"specialItemMax": 75000,
+	"specialItemUsePlayerPos": false,
 	/* 
 	   
 	   ***********************

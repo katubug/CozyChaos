@@ -1,7 +1,7 @@
 Config MOB properties here
 
 Important! Do not modify the value of the config version in this file or the mod may overwrite custom settings.
-[Global] Config Version: 3
+[Global] Config Version: 2
 
 SpawnDebug:
     Helpful when trying out different spawn configs or for testing adjustments to spawn weights.
@@ -50,7 +50,6 @@ Loudness:
 
 -------------------------------------------------------------
 
-[Global] Print Biomes: false;
 [Global] Command Item: stick;
 
 CourierBird ShouldSpawn: true
@@ -136,7 +135,7 @@ Griffon SpawnYFloor: 100
 Griffon SpawnBlocks: All
 Griffon SpawnWeight: 10
 Griffon SpawnRandomChance: 70
-Griffon SpawnType: overworld
+Griffon SpawnType: SpawnDebug: false
 Griffon MinSpawnGroupSize: 1
 Griffon MaxSpawnGroupSize: 1
 Griffon InventorySize: 4
@@ -184,10 +183,9 @@ Moth SpawnBiomes: Dark Forest Hills; Dark Forest;
 Moth SpawnYCeiling: 50000
 Moth SpawnYFloor: -50000
 Moth SpawnBlocks: All
-Moth SeekBlocks: minecraft:torch; minecraft:redstone_torch; minecraft:soul_torch; 
 Moth SpawnWeight: 10
 Moth SpawnRandomChance: 70
-Moth SpawnType: overworld
+Moth SpawnType: SpawnDebug: false
 Moth MinSpawnGroupSize: 1
 Moth MaxSpawnGroupSize: 1
 Moth InventorySize: 2
@@ -237,7 +235,7 @@ Nudibranch SpawnYFloor: -50000
 Nudibranch SpawnBlocks: minecraft:brain_coral_block; minecraft:bubble_coral_block; minecraft:fire_coral_block; minecraft:horn_coral_block; minecraft:tube_coral_block;
 Nudibranch SpawnWeight: 20
 Nudibranch SpawnRandomChance: 100
-Nudibranch SpawnType: overworld
+Nudibranch SpawnType: SpawnDebug: false
 Nudibranch MinSpawnGroupSize: 2
 Nudibranch MaxSpawnGroupSize: 4
 Nudibranch InventorySize: 3
@@ -262,7 +260,7 @@ RidingLizard SpawnYFloor: -50000
 RidingLizard SpawnBlocks: All
 RidingLizard SpawnWeight: 1
 RidingLizard SpawnRandomChance: 10
-RidingLizard SpawnType: overworld
+RidingLizard SpawnType: SpawnDebug: false
 RidingLizard MinSpawnGroupSize: 2
 RidingLizard MaxSpawnGroupSize: 3
 RidingLizard InventorySize: 2
